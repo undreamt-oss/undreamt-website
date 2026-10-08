@@ -1,0 +1,19 @@
+name: Feature request
+description: Suggest an improvement to the website
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem should this solve?
+      description: Describe the visitor or contributor need.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: Describe the improvement you have in mind.
+    validations:
+      required: true
