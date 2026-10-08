@@ -1,46 +1,8 @@
-# Dependencies
 node_modules/
-
-# Nuxt
-.nuxt/
-.output/
-
-# Build
+build/
 dist/
-
-# Logs
-logs/
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-
-# Environment
-.env
-.env.*
-!.env.example
-
-# IDE
-.vscode/
-.idea/
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Cache
-.cache/
-.temp/
-
-# TypeScript
-*.tsbuildinfo
-
-# Package Managers
-.pnpm-store/
-
-# Local Development
-*.local
-
-# Generated
 coverage/
+.DS_Store
+*.log
+.env*
+!.env.example

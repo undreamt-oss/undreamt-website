@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Instrument Sans', 'Plus Jakarta Sans', system-ui, sans-serif;
+  --font-display: 'Instrument Sans', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  --color-canvas: #08070d;
+  --color-surface: #111019;
+  --color-surface-elevated: #161523;
+  --color-surface-border: rgba(255, 255, 255, 0.08);
+}
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #08070d;
+  color: #edeef2;
+  overflow-x: hidden;
+}
+
+/* Subtle dotted grid texture for the experimental atelier aesthetic */
+.atelier-grid {
+  background-size: 40px 40px;
+  background-image: 
+    radial-gradient(circle, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+}
+
+.glow-purple {
+  box-shadow: 0 0 60px -10px rgba(168, 85, 247, 0.35);
+}
+
+.glow-purple-lg {
+  box-shadow: 0 0 100px -20px rgba(168, 85, 247, 0.45);
+}

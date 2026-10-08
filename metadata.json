@@ -1,0 +1,6 @@
+{
+  "name": "undreamt — Experimental Open Source Ecosystem",
+  "description": "An open-source atelier for tools, systems, infrastructure, and experimental technology. Built with developers, researchers, creators, and businesses.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
